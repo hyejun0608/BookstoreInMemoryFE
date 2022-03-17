@@ -2,6 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 export const color = {
   main: '#FF9900',
+  darkgray: '#4D4D4D',
+  gray: '#CDCDCD',
 };
 
 const global = createGlobalStyle`
