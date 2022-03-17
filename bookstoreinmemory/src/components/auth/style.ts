@@ -91,8 +91,7 @@ export const TitleLine = styled.div<{
   height: 2px;
   background-color: ${color.main};
   position: absolute;
-  bottom: 4px;
-  z-index: -1;
+  bottom: 0px;
 `;
 
 export const Input = styled.input`
