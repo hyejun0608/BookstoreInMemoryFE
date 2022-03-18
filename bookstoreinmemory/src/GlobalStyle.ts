@@ -4,6 +4,7 @@ export const color = {
   main: '#FF9900',
   darkgray: '#4D4D4D',
   gray: '#CDCDCD',
+  background: '#FAFAFA',
 };
 
 const global = createGlobalStyle`
