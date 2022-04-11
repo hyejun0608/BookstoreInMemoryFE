@@ -8,7 +8,7 @@ const MainRouter = () => {
       <Routes>
         <Route path='/signin' element={<Auth isSignup={false} />} />
         <Route path='/signup' element={<Auth isSignup={true} />} />
-        <Route path='/feed' element={<Feed />} />
+        <Route path='/feed' element={<Feed userName={'혜준'} />} />
         <Route path='/record' element={<Record />} />
       </Routes>
     </>
