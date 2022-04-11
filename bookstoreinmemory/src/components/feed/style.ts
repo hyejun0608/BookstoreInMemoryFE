@@ -10,9 +10,11 @@ export const Feed = styled.div`
 
 export const FeedTitle = styled.p`
   width: 800px;
-  font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
   margin: 40px auto;
+  > span {
+    font-weight: bold;
+  }
 `;
 
 export const Content = styled.div`
@@ -35,7 +37,7 @@ export const BookInfo = styled.div`
   justify-content: center;
   align-items: center;
   > p {
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     > span {
       font-weight: bold;
